@@ -1,0 +1,49 @@
+# Ambientes Virtuais
+# Ignora a pasta do ambiente virtual para não enviar as bibliotecas instaladas.
+venv/
+.venv/
+
+# Arquivos de Cache do Python
+# Ignora os arquivos de bytecode gerados pelo Python.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dados e Resultados
+# Ignora dados brutos, processados e saídas geradas para manter o repositório leve.
+data/
+outputs/
+
+# Logs
+logs/
+*.log
+
+# Arquivos de Ambiente e Editor
+# Ignora arquivos de configuração de ambiente e específicos do editor.
+.env
+.vscode/
+
+# Caches de Ferramentas Python
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# Artefatos de Build e Distribuição
+build/
+dist/
+*.egg-info/
+
+# Relatórios de Cobertura de Testes
+.coverage
+htmlcov/
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Artefatos de Documentação
+site/
+
+# Checkpoints de Jupyter Notebook
+.ipynb_checkpoints/

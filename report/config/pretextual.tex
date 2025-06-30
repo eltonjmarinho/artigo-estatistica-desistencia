@@ -1,0 +1,121 @@
+% ----------------------------------------------------------
+% Elementos pré-textuais
+% ----------------------------------------------------------
+\pretextual
+
+
+%---------------------------------------------------
+% CAPA, CONTRACAPA E FICHA CATALOGRÁFICA 
+%---------------------------------------------------
+
+
+%---------------------------------------------------
+% Capa
+%\imprimircapa MODELO ABNT GERAL 
+% Modelo personalizado abaixo
+%---------------------------------------------------
+
+\setlength{\parindent}{0cm}
+\chapter*[capa]{}
+\begin{minipage}{\linewidth}
+	
+	\centering
+	
+	\begin{tabular}{cl}
+		\begin{minipage}{0.35\textwidth}
+			\centering	\includegraphics[scale=0.15]{config/logo-ppge}
+		\end{minipage}
+		&
+		\begin{minipage}{1\textwidth}
+			%\centering
+			\large\ABNTEXchapterfont\SingleSpacing{
+			\imprimirinstituicao
+			\vspace{5mm}
+		}
+		\end{minipage}
+	\\	
+	\end{tabular} 	
+	
+\end{minipage}
+
+%		\begin{minipage}{0.75\textwidth}
+%	
+%		
+%		\imprimirinstituicao
+%		
+%		\vspace{5mm}
+%	}
+%\end{minipage}
+
+
+				
+
+
+
+\vfill
+
+	\begin{minipage}{\linewidth}
+	\begin{center}
+		{\large\ABNTEXchapterfont\SingleSpacing\bfseries
+			
+         \centering   \imprimirtitulo
+		}
+	\end{center}
+	
+	\begin{flushright}
+		\begin{minipage}{10cm}
+			\SingleSpacing
+			\imprimirpreambulo
+		\end{minipage}
+	\end{flushright}
+	
+		
+		
+\end{minipage}
+
+
+\vfill
+
+\begin{center}
+	\begin{minipage}{\linewidth}
+		\centering\large\ABNTEXchapterfont\SingleSpacing {
+			
+     	\imprimirautor
+		
+		
+		}
+	\end{minipage}
+\end{center}
+
+
+\vfill
+
+\begin{center}
+	\begin{minipage}{\linewidth}
+		\centering\normalsize\ABNTEXchapterfont\SingleSpacing {
+			\imprimirlocal \\ \imprimirdata
+		}
+	\end{minipage}
+	
+	
+\end{center}
+
+
+
+\cleardoublepage
+
+\newpage
+
+\makeatother
+
+% -------------------------------
+% Inserir o sumário
+% -------------------------------
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+
+
+
+
