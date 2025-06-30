@@ -40,7 +40,8 @@ Este projeto tem como objetivo analisar os fatores que contribuem para a desist�
    
 4. **Prepare os dados**:
 
-   * Coloque os arquivos brutos na pasta `data/raw/`.
+   * Baixe os dados em: https://drive.google.com/drive/folders/1zi4h16h79umFseChfkg0X4p0SDzATSLy?usp=sharing
+   * Coloque os arquivos de dados na mesma pasta dos scripts e notebooks.
    * Execute os scripts e notebooks que estão nas pastas /scripts e /notebooks.
    * obs: antes de executar os scripts altere o local padrão dos dados
 
