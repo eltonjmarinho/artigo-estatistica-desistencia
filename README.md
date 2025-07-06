@@ -24,7 +24,7 @@ Este projeto tem como objetivo analisar os fatores que contribuem para a desist�
 
    ```bash
    pip install -r requirements.txt
-   pip install -t requirements-dev.txt
+
    ```
 
 3. **Incie o ambiente virtual**:
@@ -40,10 +40,10 @@ Este projeto tem como objetivo analisar os fatores que contribuem para a desist�
    
 4. **Prepare os dados**:
 
-   * Baixe os dados em: https://drive.google.com/drive/folders/1zi4h16h79umFseChfkg0X4p0SDzATSLy?usp=sharing
-   * Coloque os arquivos de dados na mesma pasta dos scripts e notebooks.
-   * Execute os scripts e notebooks que estão nas pastas /scripts e /notebooks.
-   * obs: antes de executar os scripts altere o local padrão dos dados
+   * Baixe os dados em: https://drive.google.com/drive/folders/1zi4h16h79umFseChfkg0X4p0SDzATSLy?usp=sharing;
+   * Coloque os arquivos de dados na mesma pasta dos notebooks e scripts;
+   * Execute primeiro os notebooks e depois os scripts (conforme ordem númerica) que estão nas pastas /notebooks e /scripts;
+   * obs: antes de executar os notebooks e scripts altere o local padrão dos dados.
 
 
 5. **Leia o artigo**:
