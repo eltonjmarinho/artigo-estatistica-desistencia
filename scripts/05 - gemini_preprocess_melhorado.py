@@ -12,7 +12,7 @@ from tkinter import messagebox
 
 # === CONFIGURAÇÃO ===
 
-API_KEY = "AIzaSyDZjs0xfhg1Ky-1VbeL71NUvKIb6P6CbP4"  # 🔐 Substitua pela sua chave
+API_KEY = "api key"  # 🔐 Substitua pela sua chave
 CAMINHO_BASE = r"C:\Users\john-\OneDrive - Universidade Federal da Paraíba\Área de Trabalho\Artigo - Estatística\projeto-evasao\data\processed"
 
 ARQUIVO_CBO = os.path.join(CAMINHO_BASE, "cbo_unicos.csv")
