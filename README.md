@@ -48,9 +48,7 @@ Este projeto tem como objetivo analisar os fatores que contribuem para a desist√
 
 5. **Leia o artigo**:
 
-   ```bash
-   python main.py
-   ```
+   * Artigo disponivel na pasta /reports em LaTex
 
 ## Bibliotecas Utilizadas
 
